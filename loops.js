@@ -5,11 +5,3 @@ for (let i = 0; i < 25; i++) {
 }return array;
 }
 
-var result = "";
-var i = 0;
-
-do{
-  i = i +1;
-  result = result + i;
-} while (i<5);
-console.log(result);
