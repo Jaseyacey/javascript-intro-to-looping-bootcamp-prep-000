@@ -17,5 +17,12 @@ function forLoop(array){
   }
 
 function doWhileLoop(array) {
-  
+  var i = 0; 
+  function incrementVariable() {
+    i++;
+    return i;
+  }
+  do {
+    console.log('I run once regardless.');
+  } while (incrementVariable()< array.length);
 }
