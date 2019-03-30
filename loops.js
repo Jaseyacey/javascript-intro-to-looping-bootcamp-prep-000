@@ -7,7 +7,7 @@ for (let i = 0; i < 24; i++) {
 }return array;
 }
 function forLoop(array) {
-  (let i = 0; i < 24); i++);
+  for (let i = 0; i < 24); i++);
   if (i === 1) {
     array.push("I am 1 strange loop");
   } else {
